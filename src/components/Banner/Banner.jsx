@@ -3,7 +3,7 @@ import bannerImg from "../../assets/banner.png";
 import dotImg from '../../assets/dot.png'
 const Banner = () => {
   return (
-    <div className="w-10/12 mx-auto flex justify-evenly items-center mt-16 gap-5">
+    <div className="flex flex-col sm:flex-row justify-center sm:justify-evenly items-center mt-16 gap-5 text-center sm:text-left">
       <div className="space-y-4">
         <div className="badge badge-outline badge-primary text-[#9514FA]">
             <img className="object-contain" src={dotImg} alt="" />
