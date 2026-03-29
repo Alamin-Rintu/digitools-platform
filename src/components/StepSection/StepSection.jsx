@@ -14,12 +14,12 @@ const StepSection = () => {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 mt-10 gap-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 mt-10 gap-4 w-11/12 mx-auto">
         {/* 1st */}
-        <div className="bg-white p-6 text-center rounded-2xl">
+        <div className="bg-white p-6 text-center rounded-2xl hover:shadow-xl transition duration-300 hover:-translate-y-1">
           <div className="flex items-center justify-center ">
             <img
-              className="w-15 h-full bg-[#9614fa27] rounded-full"
+              className="w-14 h-14 p-3 bg-[#9614fa27] rounded-full"
               src={userImg}
               alt=""
             />
@@ -33,10 +33,10 @@ const StepSection = () => {
         </div>
 
         {/* 2nd */}
-        <div className="bg-white p-6 text-center rounded-2xl">
+        <div className="bg-white p-6 text-center rounded-2xl hover:shadow-xl transition duration-300 hover:-translate-y-1">
           <div className="flex items-center justify-center ">
             <img
-              className="w-15 h-full bg-[#9614fa27] rounded-full"
+              className="w-14 h-14 p-3 bg-[#9614fa27] rounded-full"
               src={packageImg}
               alt=""
             />
@@ -50,10 +50,10 @@ const StepSection = () => {
         </div>
 
         {/* 3rd */}
-        <div className="bg-white p-6 text-center rounded-2xl">
+        <div className="bg-white p-6 text-center rounded-2xl hover:shadow-xl transition duration-300 hover:-translate-y-1">
           <div className="flex items-center justify-center ">
             <img
-              className="w-15 h-full bg-[#9614fa27] rounded-full object-contain"
+              className="w-14 h-14 p-3 bg-[#9614fa27] rounded-full object-contain"
               src={rocketImg}
               alt=""
             />

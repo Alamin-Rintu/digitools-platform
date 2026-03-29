@@ -2,7 +2,7 @@ import cartImg from "../../assets/shopping_cart.png";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 shadow-sm px-4 md:px-8">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -34,7 +34,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn text-xl text-[#9514FA]">DigiTools</a>
+        <a className="btn bg-transparent border-none text-xl text-[#9514FA]">DigiTools</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -55,8 +55,8 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end gap-2">
-        <img src={cartImg} alt="" />
+      <div className="navbar-end gap-3">
+        <img className="w-6 md:w-7 cursor-pointer" src={cartImg} alt="" />
         <p>Login</p>
         <a className="btn btn-primary bg-linear-65 from-[#4F39F6] to-[#9514FA] border-none rounded-full">
           Get Started

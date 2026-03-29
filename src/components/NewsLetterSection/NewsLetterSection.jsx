@@ -1,14 +1,14 @@
 const NewsLetterSection = () => {
   return (
-    <div className="bg-linear-65 from-[#4F39F6] to-[#9514FA] p-10 text-center mt-16 mb-16">
-      <h3 className="text-5xl font-bold text-white">
+    <div className="bg-linear-65 from-[#4F39F6] to-[#9514FA] p-10 text-center mt-16 ">
+      <h3 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white">
         Ready to Transform Your Workflow?
       </h3>
       <p className="text-sm text-white mt-3 mb-3">
         Join thousands of professionals who are already using Digitools to work
         smarter. <br /> Start your free trial today.
       </p>
-      <div className="">
+      <div className="flex flex-col sm:flex-row justify-center gap-3 mt-4">
         <button className="btn rounded-full text-[#9514FA] mr-4">
           Explore Products
         </button>

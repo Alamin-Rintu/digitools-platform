@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/Banner/Banner";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import NewsLetterSection from "./components/NewsLetterSection/NewsLetterSection";
 import PricingSection from "./components/PricingSection/PricingSection";
@@ -15,6 +16,7 @@ function App() {
       <StepSection />
       <PricingSection />
       <NewsLetterSection />
+      <Footer/>
     </>
   );
 }

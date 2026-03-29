@@ -9,10 +9,10 @@ const Banner = () => {
             <img className="object-contain" src={dotImg} alt="" />
           New: AI-Powered Tools Available
         </div>
-        <h2 className="font-bold text-6xl text-[#101727]">
+        <h2 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#101727] leading-tight">
           Supercharge Your <br /> Digital Work flow
         </h2>
-        <p className="text-lg text-[#627382] ">
+        <p className="text-sm sm:text-base md:text-lg text-[#627382]">
           Access premium AI tools, design assets, templates, and productivity <br />
           software—all in one place. Start creating faster today. Explore
           Products
@@ -29,7 +29,7 @@ const Banner = () => {
       </div>
 
       <div>
-        <img src={bannerImg} alt="" />
+        <img className="w-full max-w-md mx-auto" src={bannerImg} alt="" />
       </div>
     </div>
   );
