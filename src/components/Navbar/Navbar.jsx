@@ -1,4 +1,3 @@
-import React from "react";
 import cartImg from "../../assets/shopping_cart.png";
 
 const Navbar = () => {
@@ -35,7 +34,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl text-[#9514FA]">DigiTools</a>
+        <a className="btn text-xl text-[#9514FA]">DigiTools</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
