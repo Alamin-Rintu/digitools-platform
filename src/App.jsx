@@ -9,6 +9,7 @@ import Stats from "./components/Stats/Stats";
 import StepSection from "./components/StepSection/StepSection";
 import AllTools from "./components/AllTools/AllTools";
 import ProductCart from "./components/ProductCart/ProductCart";
+import { ToastContainer } from "react-toastify";
 
 const toolsPromise = fetch("/tools.json").then((res) => res.json());
 
@@ -17,7 +18,7 @@ function App() {
   const [addToCart, setAddToCart] = useState([]);
   return (
     <>
-      <Navbar />
+      <Navbar addToCart={addToCart} />
       <Banner />
       <Stats />
 
@@ -58,13 +59,14 @@ function App() {
           />
         </Suspense>
       ) : (
-        <ProductCart addToCart={addToCart} />
+        <ProductCart addToCart={addToCart} setAddToCart={setAddToCart} />
       )}
 
       <StepSection />
       <PricingSection />
       <NewsLetterSection />
       <Footer />
+      <ToastContainer position="top-center" autoClose={200} />
     </>
   );
 }

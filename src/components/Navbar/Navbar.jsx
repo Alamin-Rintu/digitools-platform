@@ -1,6 +1,6 @@
 import cartImg from "../../assets/shopping_cart.png";
 
-const Navbar = () => {
+const Navbar = ({ addToCart }) => {
   return (
     <div className="navbar bg-base-100 shadow-sm px-4 md:px-8">
       <div className="navbar-start">
@@ -34,7 +34,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn bg-transparent border-none text-xl text-[#9514FA]">DigiTools</a>
+        <a className="btn bg-transparent border-none text-xl text-[#9514FA]">
+          DigiTools
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -56,9 +58,17 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-3">
-        <img className="w-6 md:w-7 cursor-pointer" src={cartImg} alt="" />
+        <div className="relative cursor-pointer">
+          <img className="w-6 md:w-7" src={cartImg} alt="Cart" />
+          {addToCart.length > 0 && (
+            <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
+              {addToCart.length}
+            </span>
+          )}
+        </div>
+
         <p>Login</p>
-        <a className="btn btn-primary bg-linear-65 from-[#4F39F6] to-[#9514FA] border-none rounded-full">
+        <a className="btn btn-primary bg-linear-65 from-[#4F39F6] to-[#9514FA] border-none rounded-full hover:shadow-xl transition duration-300 hover:-translate-y-1">
           Get Started
         </a>
       </div>

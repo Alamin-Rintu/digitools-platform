@@ -1,16 +1,26 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 
 const ToolCard = ({ tool, addToCart, setAddToCart }) => {
   const { icon, name, period, price, tag, description, features } = tool;
 
   const [selected, setSelected] = useState(false);
+
   const handleSelected = () => {
-    setSelected(true);
-    setAddToCart([...addToCart, tool])
+    // check if tool is already in cart
+    const isExist = addToCart.find((item) => item.id === tool.id);
+
+    if (isExist) {
+      toast.error("Already added to cart ❌");
+    } else {
+      setAddToCart([...addToCart, tool]);
+      setSelected(true);
+      toast.success("Item added to cart ✅");
+    }
   };
 
   return (
-    <div className="border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-lg transition-all duration-300">
+    <div className="border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-xl transition duration-300 hover:-translate-y-1">
       <div className="flex justify-between items-center">
         <div className="bg-gray-100 rounded-full p-2">
           <p className="text-xl">{icon}</p>
