@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes that get you hired faster with AI-powered suggestions and industry-specific templates.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ premium templates",
+      "ATS optimization",
+      "AI content suggestions",
+      "Export to PDF & Word",
+      "Cover letter builder"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "JobFlow Monthly",
+    "description": "Unlimited resume & cover letter creation with advanced AI matching and job tracking dashboard.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Unlimited resumes",
+      "AI job matching",
+      "Application tracker",
+      "Interview preparation tools",
+      "Priority support"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 3,
+    "name": "Career Booster Yearly",
+    "description": "Everything in Monthly plan + LinkedIn optimization, personal branding kit, and yearly performance insights.",
+    "price": 89,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Everything in Monthly",
+      "LinkedIn profile optimizer",
+      "Personal branding kit",
+      "Career roadmap planner",
+      "1-year job application analytics"
+    ],
+    "icon": "⭐"
+  },
+  {
+    "id": 4,
+    "name": "Cover Letter AI",
+    "description": "Instantly generate highly personalized cover letters tailored to any job description.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "",
+    "features": [
+      "AI-powered writing",
+      "Job description analysis",
+      "Multiple tone options",
+      "Export to PDF",
+      "Unlimited revisions"
+    ],
+    "icon": "✉️"
+  },
+  {
+    "id": 5,
+    "name": "InterviewAce Pro",
+    "description": "Master your interviews with AI mock interviews, common questions, and real-time feedback.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "AI mock interviews",
+      "Behavioral question bank",
+      "Real-time feedback",
+      "Industry-specific questions",
+      "Confidence scoring"
+    ],
+    "icon": "🎤"
+  },
+  {
+    "id": 6,
+    "name": "LinkedIn Glow Up",
+    "description": "Transform your LinkedIn profile into a powerful job magnet with professional optimization.",
+    "price": 39,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Profile optimization",
+      "Headline & summary writer",
+      "Experience bullet enhancer",
+      "Keyword optimization",
+      "Profile photo tips"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 7,
+    "name": "Freelance Launchpad",
+    "description": "Complete toolkit for freelancers - proposals, contracts, invoicing, and client management.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Proposal templates",
+      "Smart contract builder",
+      "Invoice generator",
+      "Client CRM",
+      "Payment tracking"
+    ],
+    "icon": "🛠️"
+  },
+  {
+    "id": 8,
+    "name": "Executive Career Pack",
+    "description": "Premium package for senior professionals and executives including executive resume, LinkedIn, and networking strategy.",
+    "price": 149,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "",
+    "features": [
+      "Executive resume writing",
+      "LinkedIn executive optimization",
+      "Networking strategy guide",
+      "Personal website template",
+      "1-hour career coaching call"
+    ],
+    "icon": "👔"
+  }
+]

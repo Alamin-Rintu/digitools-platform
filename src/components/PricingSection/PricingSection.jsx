@@ -10,9 +10,9 @@ const PricingSection = () => {
         </p>
       </div>
 
-      <div className="w-11/12 mx-auto mt-10 grid  md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="w-11/12 mx-auto mt-10 grid  md:grid-cols-2 lg:grid-cols-3 gap-4 ">
         {/* 1st card */}
-        <div className="card bg-base-100 shadow-lg">
+        <div className="card bg-base-100 shadow-lg hover:shadow-xl transition duration-300 hover:-translate-y-1">
           <div className="card-body">
             {/* <span className="badge badge-xs badge-warning">Most Popular</span> */}
             <div className="flex justify-between">
@@ -100,7 +100,7 @@ const PricingSection = () => {
         </div>
 
         {/* 2nd card */}
-        <div className="card bg-linear-65 from-[#4F39F6] to-[#9514FA] shadow-lg">
+        <div className="card bg-linear-65 from-[#4F39F6] to-[#9514FA] shadow-lg hover:shadow-xl transition duration-300 hover:-translate-y-1">
           <div className="card-body">
             <span className="badge badge-xs badge-warning">Most Popular</span>
             <div className="flex justify-between">
@@ -222,7 +222,7 @@ const PricingSection = () => {
         </div>
 
         {/* 3rd card */}
-        <div className="card bg-base-100 shadow-lg">
+        <div className="card bg-base-100 shadow-lg hover:shadow-xl transition duration-300 hover:-translate-y-1">
           <div className="card-body">
             {/* <span className="badge badge-xs badge-warning">Most Popular</span> */}
             <div className="flex justify-between">
